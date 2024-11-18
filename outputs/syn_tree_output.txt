@@ -1,0 +1,53 @@
+
+ Phase 2 : Syntax Analysis - output (AST)
+==============================================
+
+
+├── Operation: MStmts
+  ├── Operation: MStmts
+    ├── Operation: MStmts
+      ├── Operation: MStmts
+        ├── Operation: MStmts
+          ├── Operation: MStmts
+            ├── Operation: EQUALS
+              ├── Variable: e (Value: 2))
+              ├── Value: 2.00
+            ├── Operation: EQUALS
+              ├── Variable: i (Value: 0))
+              ├── Value: 0.00
+          ├── Operation: if
+            ├── Operation: >
+              ├── Variable: i (Value: 0))
+              ├── Variable: e (Value: 2))
+            ├── Operation: MStmts
+              ├── Operation: EQUALS
+                ├── Variable: a (Value: 5))
+                ├── Operation: ADD
+                  ├── Operation: DIV
+                    ├── Operation: MUL
+                      ├── Value: 12.00
+                      ├── Value: 4.00
+                    ├── Variable: e (Value: 2))
+                  ├── Value: 1.00
+              ├── Operation: EQUALS
+                ├── Variable: d (Value: 1))
+                ├── Value: 1.00
+        ├── Operation: EQUALS
+          ├── Variable: a (Value: 5))
+          ├── Value: 5.00
+      ├── Operation: EQUALS
+        ├── Variable: c (Value: a))
+    ├── Operation: for
+      ├── Operation: <
+        ├── Variable: w (Value: 0))
+        ├── Variable: e (Value: 2))
+      ├── Operation: EQUALS
+        ├── Variable: q (Value: 1))
+        ├── Value: 1.00
+  ├── Operation: while
+    ├── Operation: <
+      ├── Variable: a (Value: 5))
+      ├── Value: 10.00
+    ├── Operation: EQUALS
+      ├── Variable: r (Value: 1))
+      ├── Value: 1.00

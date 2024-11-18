@@ -1,0 +1,231 @@
+
+ Phase 1 : Lexical Analysis - output (Tokenization)
+====================================================
+
+     public -> keyword
+      class -> keyword
+         ex -> identifier
+          { -> open parenthesis
+     public -> keyword
+     static -> keyword
+       void -> keyword
+       main -> keyword
+     String -> keyword
+       args -> keyword
+          { -> open parenthesis
+        int -> keyword
+          e -> identifier
+          = -> assignment operator
+          2 -> integer
+        int -> keyword
+          i -> identifier
+          = -> assignment operator
+          0 -> integer
+         if -> keyword
+          i -> identifier
+          > -> comparison operator
+          e -> identifier
+          { -> open parenthesis
+        int -> keyword
+          a -> identifier
+          = -> assignment operator
+         12 -> integer
+          4 -> integer
+          e -> identifier
+          1 -> integer
+        int -> keyword
+          d -> identifier
+          = -> assignment operator
+          1 -> integer
+          } -> close parenthesis
+          a -> identifier
+          = -> assignment operator
+          5 -> integer
+       char -> keyword
+          c -> identifier
+          = -> assignment operator
+        'a' -> character
+          c -> identifier
+          = -> assignment operator
+        'd' -> character
+        for -> keyword
+        int -> keyword
+          w -> identifier
+          = -> assignment operator
+          0 -> integer
+          w -> identifier
+          < -> comparison operator
+          e -> identifier
+          w -> identifier
+          = -> assignment operator
+          w -> identifier
+          1 -> integer
+          { -> open parenthesis
+        int -> keyword
+          q -> identifier
+          = -> assignment operator
+          1 -> integer
+          } -> close parenthesis
+      while -> keyword
+          a -> identifier
+          < -> comparison operator
+         10 -> integer
+          { -> open parenthesis
+        int -> keyword
+          r -> identifier
+          = -> assignment operator
+          1 -> integer
+          } -> close parenthesis
+          } -> close parenthesis
+
+ Phase 1 : Lexical Analysis - output (Tokenization)
+====================================================
+
+     public -> keyword
+      class -> keyword
+         ex -> identifier
+          { -> open parenthesis
+     public -> keyword
+     static -> keyword
+       void -> keyword
+       main -> keyword
+     String -> keyword
+       args -> keyword
+          { -> open parenthesis
+        int -> keyword
+          e -> identifier
+          = -> assignment operator
+          2 -> integer
+        int -> keyword
+          i -> identifier
+          = -> assignment operator
+          0 -> integer
+         if -> keyword
+          i -> identifier
+          > -> comparison operator
+          e -> identifier
+          { -> open parenthesis
+        int -> keyword
+          a -> identifier
+          = -> assignment operator
+         12 -> integer
+          4 -> integer
+          e -> identifier
+          1 -> integer
+        int -> keyword
+          d -> identifier
+          = -> assignment operator
+          1 -> integer
+          } -> close parenthesis
+          a -> identifier
+          = -> assignment operator
+          5 -> integer
+       char -> keyword
+          c -> identifier
+          = -> assignment operator
+        'a' -> character
+        for -> keyword
+        int -> keyword
+          w -> identifier
+          = -> assignment operator
+          0 -> integer
+          w -> identifier
+          < -> comparison operator
+          e -> identifier
+          w -> identifier
+          = -> assignment operator
+          w -> identifier
+          1 -> integer
+          { -> open parenthesis
+        int -> keyword
+          q -> identifier
+          = -> assignment operator
+          1 -> integer
+          } -> close parenthesis
+      while -> keyword
+          a -> identifier
+          < -> comparison operator
+         10 -> integer
+          { -> open parenthesis
+        int -> keyword
+          r -> identifier
+          = -> assignment operator
+          1 -> integer
+          } -> close parenthesis
+          } -> close parenthesis
+
+ Phase 1 : Lexical Analysis - output (Tokenization)
+====================================================
+
+     public -> keyword
+      class -> keyword
+         ex -> identifier
+          { -> open parenthesis
+     public -> keyword
+     static -> keyword
+       void -> keyword
+       main -> keyword
+     String -> keyword
+       args -> keyword
+          { -> open parenthesis
+        int -> keyword
+          e -> identifier
+          = -> assignment operator
+          2 -> integer
+        int -> keyword
+          i -> identifier
+          = -> assignment operator
+          0 -> integer
+         if -> keyword
+          i -> identifier
+          > -> comparison operator
+          e -> identifier
+          { -> open parenthesis
+        int -> keyword
+          a -> identifier
+          = -> assignment operator
+         12 -> integer
+          4 -> integer
+          e -> identifier
+          1 -> integer
+        int -> keyword
+          d -> identifier
+          = -> assignment operator
+          1 -> integer
+          } -> close parenthesis
+          a -> identifier
+          = -> assignment operator
+          5 -> integer
+       char -> keyword
+          c -> identifier
+          = -> assignment operator
+        'a' -> character
+        for -> keyword
+        int -> keyword
+          w -> identifier
+          = -> assignment operator
+          0 -> integer
+          w -> identifier
+          < -> comparison operator
+          e -> identifier
+          w -> identifier
+          = -> assignment operator
+          w -> identifier
+          1 -> integer
+          { -> open parenthesis
+        int -> keyword
+          q -> identifier
+          = -> assignment operator
+          1 -> integer
+          } -> close parenthesis
+      while -> keyword
+          a -> identifier
+          < -> comparison operator
+         10 -> integer
+          { -> open parenthesis
+        int -> keyword
+          r -> identifier
+          = -> assignment operator
+          1 -> integer
+          } -> close parenthesis
+          } -> close parenthesis
